@@ -1,0 +1,57 @@
+body {
+    font-size: 15px;
+    font-family: Arial;
+    min-height: 100vh;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(180deg, #A2D2FD, #8DE0FE, #FFAFCC, #FFC8DD, #CDB4DB);
+}
+
+#small {
+    font-size: 18px;
+    text-align: center;
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 50px auto 20px auto;
+}
+
+#big {
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+    text-shadow: 0px 10px 20px pink;
+}
+
+
+#message {
+    border: 1px solid white;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 20px;
+    width: 80%;
+    box-shadow: 0px 5px 10px 3px rgba(0,0,0,0.2);
+
+    p {
+        text-align: justify;
+        
+        span {
+            font-size: 35px;
+            font-family: cursive;
+        }
+    }
+}
+
+#text {
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 50px auto 100px auto;
+    width: 80%;
+    box-shadow: 0px 5px 10px 3px rgba(0,0,0,0.2);
+    
+    p {
+        text-align: justify;
+    }
+}
