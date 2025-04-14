@@ -123,3 +123,12 @@ div.End p {
         opacity: 1;
     }
 }
+
+div#audio {
+    margin: 40px auto;
+    
+    audio {
+        display: block;
+        margin: 0px auto;
+    }
+}
