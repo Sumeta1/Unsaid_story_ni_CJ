@@ -68,5 +68,15 @@ body {
             margin: 20px auto;
             align-content: center;
         }
+
+        a {
+            display: block;
+            background: pink;
+            border-radius: 20px;
+            box-sizing: border-box;
+            padding: 10px;
+            font-size: 15px;
+            margin: 30px 0px;
+        }
     }
 }
