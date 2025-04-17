@@ -79,3 +79,48 @@ body {
     line-height: 20px;
     text-align: justify;
 }
+
+
+#but {
+    margin: 50px auto 300px auto;
+    width: 60%;
+    height: 50px;
+    
+    a {
+        background: black;
+        color: white;
+        display: block;
+        padding: 20px;
+        height: 60px;
+        width: 210px;
+        box-sizing: border-box;
+        border-radius: 20px;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    a:before {
+        content: "";
+        background: linear-gradient(45deg, red, violet, blue, cyan, yellow, orange, red);
+        background-size: 400%;
+        position: absolute;
+        border-radius: 20px;
+        width: 210px;
+        height: 60px;
+        z-index: -1;
+        translate: -15% -35%;
+        padding: 3px;
+        filter: blur(3px);
+        animation: move 10s linear infinite;
+        
+    }
+}
+
+@keyframes move {
+    from {
+        background-position-x: 0;
+    }
+    to {
+        background-position-x: -400%;
+    }
+}
