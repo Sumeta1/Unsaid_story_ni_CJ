@@ -1,0 +1,72 @@
+body {
+    background: linear-gradient(180deg, #A2D2FD, #8DE0FE, #FFAFCC, #FFC8DD, #CDB4DB);
+    color: black;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+.container {
+    margin: 100px 10px;
+    
+    div {
+        background: white;
+        border-radius: 20px;
+        padding: 20px;
+        margin: 50px 20px;
+        text-align: justify;
+        line-height: 25px;
+        box-shadow: 0px 5px 10px 3px rgba(0,0,0,0.2);
+        
+        img {
+            width: 100%;
+            border-radius: 10px;
+            margin: 20px auto;
+        }
+    }
+    
+}
+
+.record {
+    background: rgba(0,0,0,0.2);
+    margin: 100px 0px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: justify;
+    border: 1px solid white;
+    
+    div.file {
+        background: white;
+        padding: 20px;
+        border-radius: 20px;
+        margin: 30px 0px 50px 0px;
+        
+        video {
+            width: 100%;
+            border-radius: 10px;
+            margin: 10px 0px;
+            box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+            border-top: 2px solid #8DE0FE;
+        }
+        
+        audio {
+            width: 100%;
+            border-radius: 500px;
+            margin: 10px 0px;
+            border-top: 2px solid #8DE0FE;
+            box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+        }
+        
+        p {
+            background: rgba(0,255,255,0.3);
+            border-bottom: 1px solid black;
+            text-align: center;
+            box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.2) inset;
+            border-radius: 50px;
+            min-height: 30px;
+            padding: 10px;
+            width: 90%;
+            margin: 20px auto;
+            align-content: center;
+        }
+    }
+}
