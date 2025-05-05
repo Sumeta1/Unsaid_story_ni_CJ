@@ -81,7 +81,7 @@ body {
     }
 }
 
-#button {
+div.button {
     margin: 100px auto 150px auto;
     width: 230px;
     box-sizing: border-box;
