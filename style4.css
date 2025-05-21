@@ -108,7 +108,7 @@ body {
         width: 210px;
         height: 60px;
         z-index: -1;
-        translate: -15% -35%;
+        translate: -47% -35%;
         padding: 3px;
         filter: blur(3px);
         animation: move 10s linear infinite;
